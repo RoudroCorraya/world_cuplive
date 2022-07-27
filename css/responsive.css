@@ -1,91 +1,28 @@
-@media(min-width:320px) and (max-width:575px){
-
+@media Screen and (max-width:576px){
     #banner_part{
-        
+        display: grid;
+        grid-template-columns: auto;
+        overflow-x: hidden;
     }
     #banner_part .banner_item{
-        display: block;
-        padding-bottom: 0;
-        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
     #banner_part .banner_item .text h1{
-        font-size: 40px;
-        width: 320px;
-        padding: 0 30px;
+        font-size: 30px;
+        padding: 0 50px;
     }
-    #banner_part .banner_item .text p{
-        
-        width: 280px;
-        padding: 0 30px;
+    #banner_part .banner_item .img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
     }
     #banner_part .banner_item .img img{
-        width: 25%;
-        margin-top: 25px;
+        width: auto;
     }
-/*==============transfer_part ==============*/
-    #transfer_part .item{
-        display: block;
-    }
-    #transfer_part .item .upcuming_part{
-        height: 88px;
-        display: flex;
-        padding: 26px 0;
-        width: 316px;
-    }
-    #transfer_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
-    }
-    #transfer_part .item .upcuming_part button a{
-        font-size: 14px;
-    }
-    #transfer_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-    #transfer_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
-    }
-    
-/*==============upcoming_part_part ==============*/
-    #upcoming_part .item{
-        display: block;
-    }
-    #upcoming_part .item .upcuming_part{
-        height: 88px;
-        display: flex;
-        padding: 26px 0;
-        width: 316px;
-    }
-    #upcoming_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
-    }
-    #upcoming_part .item .upcuming_part button a{
-        font-size: 14px;
-    }
-    #upcoming_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-    #upcoming_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
-    }
-/*==================footer_part==============*/
-    #footer_part .text{
-        width: 320px;
-    }
-    #footer_part .text li{
-        display: block;
-        padding: 10px 20px;
-    }
-  
 }
 
+    
 @media(min-width:576px) and (max-width:767px){
 
     #banner_part{
